@@ -120,3 +120,15 @@ Join [LLVM Discourse forums](https://discourse.llvm.org/), [discord chat](https:
 
 The LLVM project has adopted a [code of conduct](https://llvm.org/docs/CodeOfConduct.html) for
 participants to all modes of communication within the project.
+
+## Get libffi
+run build_libffi.sh
+
+## compile arm64 iOS
+run build_llvm_ios.sh
+
+## Build Frameworks
+cd xcode_project/llvm 
+run llvm.xcodeproj
+
+
