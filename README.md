@@ -124,7 +124,7 @@ participants to all modes of communication within the project.
 ## Get libffi
 run build_libffi.sh
 
-## compile arm64 iOS
+## Compile arm64 iOS
 run build_llvm_ios.sh
 
 ## Build Frameworks
