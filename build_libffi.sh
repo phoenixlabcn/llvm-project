@@ -3,6 +3,8 @@ export REPO_ROOT=`pwd`
 PLATFORM="iphoneos"
 LIBFFI_BUILD_DIR=$REPO_ROOT/libffi
 
+test -d libffi || git clone https://github.com/libffi/libffi.git
+
 echo "Build libffi for $PLATFORM"
 
 cd $REPO_ROOT
