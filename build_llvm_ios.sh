@@ -30,7 +30,7 @@ fi
 
 rm -rf $LLVM_INSTALL_DIR
 
-ARCH="AArch64"
+#ARCH="AArch64"
 
 
 ARCH="arm64"
